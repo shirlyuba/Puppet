@@ -25,7 +25,7 @@ vim default.pp
 
 vagrant reload
 
-vagrant provision
+vagrant up --provision
 
 vagrant ssh
 
