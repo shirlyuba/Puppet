@@ -23,7 +23,7 @@ cd manifests
 
 vim default.pp
 
-vagrant up --provision
+vagrant reload
 
 vagrant ssh
 
