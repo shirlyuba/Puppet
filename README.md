@@ -33,7 +33,7 @@ which mongod
 
 ps -ef | grep mongodb
 
-ps -ef | grep redis-server
+ps -ef | grep redis
 
 exit
 
