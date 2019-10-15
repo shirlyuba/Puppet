@@ -25,6 +25,8 @@ vim default.pp
 
 vagrant reload
 
+vagrant provision
+
 vagrant ssh
 
 ll // создалась папка my_directory
