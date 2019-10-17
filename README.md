@@ -39,7 +39,7 @@ exit
 
 vim default.pp // закомментим запуск redis-service, ensure => absent
 
-vagrant provision
+vagrant up --provision
 
 vagrant ssh
 
