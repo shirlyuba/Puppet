@@ -1,7 +1,9 @@
 # Puppet
 Puppet demo
 
-vagrant init ubuntu/trusty64
+//скачать VagrantFile
+
+//скачать manifests/default.pp
 
 vagrant up
 
@@ -13,15 +15,9 @@ which redis-server
 
 exit
 
-//скачать VagrantFile
+vim Vagrantfile // раскомментить puppet
 
-//скачать manifests/default.pp
-
-vim Vagrantfile
-
-cd manifests
-
-vim default.pp
+vim manifests/default.pp
 
 vagrant reload
 
