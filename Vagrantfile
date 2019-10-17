@@ -65,10 +65,10 @@ Vagrant.configure("2") do |config|
   # You will need to create the manifests direcory and a manifest in
   # the file default.pp in the manifests_path directory.
   #
-   config.vm.provision "puppet" do |puppet|
-     puppet.manifests_path = "manifests"
-     puppet.manifest_file = "default.pp"
-   end
+  # config.vm.provision "puppet" do |puppet|
+  #   puppet.manifests_path = "manifests"
+  #   puppet.manifest_file = "default.pp"
+  # end
 
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
